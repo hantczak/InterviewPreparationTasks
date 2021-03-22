@@ -1,0 +1,17 @@
+
+0
+java:S1220""Move this file to a named package.
+x	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Õ‡ğøÿÿÿÿ8õ‚Ñ…/
+J
+java:S5411"*Use the primitive boolean expression here.( ¸‘®ûÿÿÿÿ8õ‚Ñ…/
+J
+java:S5411"*Use the primitive boolean expression here.(İüÍÎûÿÿÿÿ8õ‚Ñ…/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(†ÿáÄ8õ‚Ñ…/
+C
+java:S1172"(Remove this unused method parameter "n".(®ª¡É8õ‚Ñ…/
+H
+java:S1125"(Remove the literal "true" boolean value.( ¸‘®ûÿÿÿÿ8õ‚Ñ…/
+H
+java:S1125"(Remove the literal "true" boolean value.(İüÍÎûÿÿÿÿ8õ‚Ñ…/
+F
+java:S1481"+Remove this unused "number" local variable.(ãÏ¥»8õ‚Ñ…/
