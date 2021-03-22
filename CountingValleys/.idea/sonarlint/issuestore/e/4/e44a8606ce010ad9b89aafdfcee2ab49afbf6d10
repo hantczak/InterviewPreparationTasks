@@ -1,0 +1,7 @@
+
+8
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ8›í²Ò…/
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ˆªåıÿÿÿÿ8›í²Ò…/
+0
+java:S1220""Move this file to a named package.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ô’ìıÿÿÿÿ8„§åÑ…/
