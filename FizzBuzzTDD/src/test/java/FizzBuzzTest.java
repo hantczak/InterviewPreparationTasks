@@ -1,8 +1,12 @@
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
-import static org.junit.Assert.assertEquals;
+
 import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class FizzBuzzTest {
     private FizzBuzz fizzBuzz;
@@ -38,9 +42,18 @@ class FizzBuzzTest {
 
     @Test
     void shouldReturnFizzBuzzWithNumberDivisibleByBothFiveAndThree() {
+        assertAll();
         assertAll(
                 () -> assertEquals("FizzBuzz", fizzBuzz.process(15)),
                 () -> assertEquals("FizzBuzz", fizzBuzz.process(60))
         );
     }
+
+    @ParameterizedTest
+    @CsvSource({"1,1","3,Fizz","5,Buzz","15,FizzBuzz"})
+    void testOutput(long input, String outcome){
+        assertEquals(fizzBuzz.process(input),outcome);
+    }
+
+
 }
